@@ -1,1 +1,10 @@
-export function Button({ children, ...props }: any) { return <button {...props}>{children}</button>; }
+export function Button({ children, className = "", ...props }: any) {
+    return (
+      <button
+        {...props}
+        className={`px-4 py-2 rounded font-medium ${className}`}
+      >
+        {children}
+      </button>
+    );
+  }
