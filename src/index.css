@@ -66,3 +66,34 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f122f; /* fundo roxo escuro */
+  color: white;              /* cor da fonte */
+  font-family: system-ui, sans-serif;
+}
+
+input, textarea {
+  background-color: #2f213f;
+  border: 1px solid #4e3e5e;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+button {
+  background-color: #5d4c6e;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4e3e5e;
+}
